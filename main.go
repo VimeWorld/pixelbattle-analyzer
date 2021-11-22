@@ -58,7 +58,7 @@ func main() {
 
 	normal := distuv.Normal{
 		Mu:    0.5,
-		Sigma: 3,
+		Sigma: 5,
 	}
 	for x := 0; x < size; x++ {
 		for y := 0; y < size; y++ {
@@ -149,9 +149,9 @@ func getColorIndex(c color.NRGBA) byte {
 		return 1
 	case 0xFFbe49c9:
 		return 2
-	case 0xFF6387d2:
+	case 0xFF4FB5D2:
 		return 3
-	case 0xFFc2b51c:
+	case 0xFFE0C037:
 		return 4
 	case 0xFF39ba2e:
 		return 5
@@ -167,11 +167,11 @@ func getColorIndex(c color.NRGBA) byte {
 		return 10
 	case 0xFF253193:
 		return 11
-	case 0xFF56331c:
+	case 0xFF70482a:
 		return 12
 	case 0xFF364b18:
 		return 13
-	case 0xFF9e2b27:
+	case 0xFFad2e2b:
 		return 14
 	case 0xFF181414:
 		return 15
